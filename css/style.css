@@ -1,0 +1,45 @@
+.card-center {
+    width: 300px;
+    max-width: 100%;
+}
+
+footer {
+    color: #ffffff;
+}
+
+.btn-custom {
+    background-color: #7a1ef3;
+    border-color: #893bf0;
+    color: #ffffff;
+}
+
+.btn-custom:hover,
+.btn-custom:focus {
+    background-color: #893bf0;
+    border-color: #893bf0;
+    color: #ffffff;
+}
+
+.btn-outline-custom {
+    color: #7a1ef3;
+    border-color: #7a1ef3;
+}
+
+.btn-outline-custom:hover,
+.btn-outline-custom:focus {
+    background-color: #7a1ef3;
+    border-color: #7a1ef3;
+    color: #ffffff;
+}
+
+.bg-custom {
+    background-color: #7a1ef3 !important;
+}
+
+
+@media (max-width: 480px) {
+    .card-center {
+        width: 100%;
+    }
+}
+

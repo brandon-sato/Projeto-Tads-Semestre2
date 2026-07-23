@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteBase /site/
+
+# Redireciona para URLs amigáveis sem index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ index.php?param=$1 [L,QSA]
